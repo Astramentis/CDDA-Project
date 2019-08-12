@@ -61,7 +61,15 @@ html, body{
   margin-top:.3rem;
   margin-bottom:.5rem;
 }
-
+.fa-book{
+  color: #b3b;
+}
+.fa-cogs{
+  color: #b3b;
+}
+.fa-flask{
+  color: #b3b;
+}
 
 
 /*---Media Queries --*/

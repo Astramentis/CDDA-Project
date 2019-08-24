@@ -112,13 +112,20 @@ figure {
           transform: translateZ(0);
   will-change: transform;
 }
-/*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
-    padding: 1rem;
-}
 .social a {
   font-size: 3.5rem;
   padding: 3rem;
+}
+.footer {
+  background-color:#3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2 rem;
+}
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
 }
 
 

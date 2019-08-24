@@ -122,15 +122,32 @@ figure {
   padding-top: 2 rem;
 }
 
-
-/*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
-    padding: 1rem;
+@media (max-width: 768px){
+  .carousel-caption{
+    top:40%;
+  }
+  .carousel-caption h1{
+    font-size: 350%;
+  }
+  .carousel-caption h3{
+    font-size: 150%;
+    font-weight: 400;
+    padding-bottom: .2 rem;
 }
 
 
 
 
+
+
+
+
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)

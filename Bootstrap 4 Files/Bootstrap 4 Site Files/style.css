@@ -124,10 +124,17 @@ figure {
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
-
+  
 }
 @media (max-width: 768px) { 
-
+.carousel-caption h1{
+  top:45%;
+}
+.carousel-caption h3{
+  font-size: 200%;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
 }
 @media (max-width: 576px) {
 
